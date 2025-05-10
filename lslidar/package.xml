@@ -1,20 +1,16 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>lslidar_cb64s1</name>
+  <name>lslidar</name>
   <version>1.0.0</version>
   <description>Launch files and configuration for Lslidar CB64S1 model</description>
   <license>BSD</license>
 
   <maintainer email="your-email@example.com">Your Name</maintainer>
-
-  <!-- Основные зависимости для работы с launch-файлами -->
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
   
-  <!-- Зависимость от общего драйвера -->
   <exec_depend>lslidar_ch_driver</exec_depend>
   
-  <!-- Дополнительные зависимости -->
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>rviz2</exec_depend>
   

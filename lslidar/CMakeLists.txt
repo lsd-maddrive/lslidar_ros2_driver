@@ -1,10 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
-project(lslidar_cb64s1)
+project(lslidar)
 
-# Поиск необходимых пакетов
 find_package(ament_cmake REQUIRED)
 
-# Установка launch-файлов и конфигураций
 install(
   DIRECTORY 
     launch
@@ -14,7 +12,6 @@ install(
     share/${PROJECT_NAME}
 )
 
-# Установка параметров если есть дополнительные файлы
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/params")
   install(
     DIRECTORY params
