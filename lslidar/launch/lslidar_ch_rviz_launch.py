@@ -9,12 +9,12 @@ import os
 def generate_launch_description():
     # Get paths to configuration files
     driver_config = os.path.join(
-        get_package_share_directory('lslidar_ch_driver'),
+        get_package_share_directory('lslidar'),
         'params',
         'lslidar_ch.yaml'
     )
     rviz_config = os.path.join(
-        get_package_share_directory('lslidar_ch_driver'),
+        get_package_share_directory('lslidar'),
         'rviz_cfg',
         'lslidar_ch_driver.rviz'
     )
